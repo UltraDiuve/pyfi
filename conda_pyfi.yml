@@ -1,0 +1,12 @@
+name: pyfi
+channels:
+  - defaults
+dependencies:
+  - pandas
+  - pandas-datareader
+  - jupyter
+  - holoviews
+  - matplotlib
+  - seaborn
+  - bokeh
+prefix: C:\Users\Megaport\Anaconda3\envs\pyfi
