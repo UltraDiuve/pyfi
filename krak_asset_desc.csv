@@ -1,0 +1,85 @@
+Code;Desc;Type;Statut
+AAVE;Aave;Cryptocurrency;
+ADA;Cardano;Cryptocurrency;
+ALGO;Algorand;Cryptocurrency;
+ANKR;Ankr;Cryptocurrency;
+ANT;Aragon;Cryptocurrency;
+ATOM;Cosmos;Cryptocurrency;
+BAL;Balancer;Cryptocurrency;
+BAT;Basic Attention Token;Cryptocurrency;
+BCH;Bitcoin Cash;Cryptocurrency;
+BNT;Bancor;Cryptocurrency;
+BSV;Bitcoin SV;Cryptocurrency;delisted
+COMP;Compound;Cryptocurrency;
+CRV;Curve;Cryptocurrency;
+DAI;Dai;Cryptocurrency;
+DASH;DASH;Cryptocurrency;
+DOT;Polkadot;Cryptocurrency;
+ENJ;Enjin Coin;Cryptocurrency;
+EOS;EOS;Cryptocurrency;
+EWT;Energy Web Token;Cryptocurrency;
+ETH2;ETH2;Cryptocurrency;
+FIL;Filecoin;Cryptocurrency;
+FLOW;Flow;Cryptocurrency;
+GHST;Aavegotchi;Cryptocurrency;
+GNO;Gnosis;Cryptocurrency;
+GRT;The Graph;Cryptocurrency;
+ICX;ICON;Cryptocurrency;
+KAVA;Kava;Cryptocurrency;
+KEEP;Keep Network;Cryptocurrency;
+KNC;Kyber Network;Cryptocurrency;
+KSM;Kusama;Cryptocurrency;
+LINK;Chainlink;Cryptocurrency;
+LPT;Livepeer;Cryptocurrency;
+LSK;Lisk;Cryptocurrency;
+MANA;Decentraland;Cryptocurrency;
+MATIC;Polygon;Cryptocurrency;
+MINA;Mina;Cryptocurrency;
+MKR;Maker;Cryptocurrency;
+NANO;Nano;Cryptocurrency;
+OCEAN;Ocean;Cryptocurrency;
+OMG;OmiseGO;Cryptocurrency;
+OXT;Orchid;Cryptocurrency;
+PAXG;PAX Gold;Cryptocurrency;
+QTUM;QTUM;Cryptocurrency;
+RARI;Rarible;Cryptocurrency;
+REN;REN Protocol;Cryptocurrency;
+SAND;The Sandbox;Cryptocurrency;
+SC;Siacoin;Cryptocurrency;
+SNX;Synthetix;Cryptocurrency;
+STORJ;Storj;Cryptocurrency;
+SUSHI;Sushi;Cryptocurrency;
+TBTC;tBTC;Cryptocurrency;
+TRX;Tron;Cryptocurrency;
+UNI;Uniswap;Cryptocurrency;
+USDT;Tether;Cryptocurrency;
+USDC;USD Coin;Cryptocurrency;
+WAVE;Waves;Cryptocurrency;
+XDAO;DAO;Cryptocurrency;delisted
+XETC;Ethereum Classic;Cryptocurrency;
+XETH;Ethereum;Cryptocurrency;
+XICN;Iconomi;Cryptocurrency;delisted
+XLTC;Litecoin;Cryptocurrency;
+XMLN;Enzyme Finance;Cryptocurrency;
+XNMC;Namecoin;Cryptocurrency;delisted
+XREP;Augur;Cryptocurrency;
+XREPV2;Augur v2;Cryptocurrency;
+XXBT;Bitcoin;Cryptocurrency;
+XXDG;Dogecoin;Cryptocurrency;
+XXLM;Stellar Lumens;Cryptocurrency;
+XXMR;Monero;Cryptocurrency;
+XXRP;Ripple;Cryptocurrency;
+XXTZ;Tezos;Cryptocurrency;
+XXVN;Ven;Cryptocurrency;delisted
+XZEC;Zcash;Cryptocurrency;
+YFI;Yearn Finance;Cryptocurrency;
+ZRX;0x;Cryptocurrency;
+ZAUD;Australian Dollar;Cash;
+ZCAD;Canadian Dollar;Cash;
+ZCHF;Swiss Franc;Cash;
+ZEUR;Euro;Cash;
+ZGBP;Great British Pound;Cash;
+ZJPY;Japanese Yen;Cash;
+ZKRW;South Korean Won;Cash;delisted
+ZUSD;US Dollar;Cash;
+KFEE;Kraken Fee Credits;Promotional Credit;
