@@ -1,9 +1,32 @@
 import pandas as pd
 from pathlib import Path
 import datetime as dt
+import os
+import re
 
 
 data_path = Path('.') / 'data'
+
+
+def multiply(matchobj, multiplier=60):
+    return('_' + str(int(matchobj.groups(0)[0]) * multiplier) + 'sec.')
+
+
+def rename_ohlc_files():
+    # this function renames files in ohlc folder
+    # transforms :
+    #   XBTAUD_1.csv
+    #   into
+    #   XBTAUD_60sec.csv
+    # should only be run once
+    prog = re.compile(r'_(\d*)\.')
+    data_path = Path('.') / 'data' / 'ohlc'
+    for cpt, filename in enumerate(os.listdir(data_path)):
+        print(f'{filename} -> {prog.sub(multiply, filename)}')
+        os.rename(
+            data_path / filename,
+            data_path / prog.sub(multiply, filename),
+        )
 
 
 def get_trades(
