@@ -182,6 +182,16 @@ if __name__ == '__main__':
         timeframe=bt.TimeFrame.Days,
     )
     cerebro.addanalyzer(
+        bt.analyzers.SharpeRatio_A,
+        _name='sharpe2',
+        timeframe=bt.TimeFrame.Weeks,
+    )
+    cerebro.addanalyzer(
+        bt.analyzers.SharpeRatio_A,
+        _name='sharpe3',
+        timeframe=bt.TimeFrame.Months,
+    )
+    cerebro.addanalyzer(
         bt.analyzers.DrawDown,
         _name='drawdown',
     )
@@ -195,7 +205,9 @@ if __name__ == '__main__':
     # Print out the final result
     print('Final Portfolio Value: %.2f' % cerebro.broker.getvalue())
 
-    print('Sharpe Ratio:', strats[0].analyzers.sharpe.get_analysis())
+    print('Sharpe Ratio (days): ', strats[0].analyzers.sharpe.get_analysis())
+    print('Sharpe Ratio (weeks): ', strats[0].analyzers.sharpe.get_analysis())
+    print('Sharpe Ratio: (months): ', strats[0].analyzers.sharpe.get_analysis())
     print('Returns: ', strats[0].analyzers.returns.get_analysis())
     print('Drawdown: ', strats[0].analyzers.drawdown.get_analysis())
 
